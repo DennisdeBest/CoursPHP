@@ -1,0 +1,14 @@
+{% extends "layout.twig" %}
+{% block content %}
+<table>
+    <tr>
+<th>Nom : </th><td>{{ jeu.nom }}</td>
+    </tr>
+    <tr>
+        <th>Possesseur : </th><td>{{ jeu.possesseur }}</td>
+    </tr>
+    <tr>
+        <th>Console : </th><td>{{ jeu.console }}</td>
+    </tr>
+</table>
+{% endblock %}

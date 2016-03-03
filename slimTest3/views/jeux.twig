@@ -1,0 +1,12 @@
+{% extends "layout.twig"  %}
+{% block content %}
+    <table>
+    {% for jeu in jeux %}
+    <tr>
+        <td>{{ jeu.ID }}</td>
+        <td><a href="{{ jeu.nom }}">{{ jeu.nom }}</a></td>
+    </tr>
+    {% endfor %}
+    </table>
+{% endblock %}
+
